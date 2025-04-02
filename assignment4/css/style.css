@@ -1,0 +1,46 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body { 
+	margin:50px;
+	padding:0px;
+	height:0%;
+}
+
+html {
+		/* Standard text-settings below */
+	
+    font-size: 2.3em;
+    line-height: 2.8em;
+  font-family: "Prompt", sans-serif;
+  font-style: normal;
+ letter-spacing: 1em;
+ 
+
+}
+
+   
+body {
+text-shadow: 2px 2px 9px #7A7A7A;
+    text-align: center;
+   
+}
+
+
+#container {
+   background: radial-gradient(circle, rgba(255,106,0,1) 0%, rgba(187,233,148,1) 80%);  
+ outline: 10px groove #000000;
+outline-offset: 20px;  
+margin:auto;
+margin-top:30px;
+margin-bottom: 30px;
+width:800px;
+border: 2px solid #1d3942;
+padding: 25px;
+ 
+}
+
+
+
+
+
+
+

@@ -1,0 +1,198 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%
+    
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+body {
+	
+	
+}
+
+
+#container {
+	
+}
+
+#square  {
+left: 400px;
+margin: 30px;
+border:5px black;
+padding: 5px;
+background: #CACF85;
+width: 400px;
+height: 400px;
+position: sticky;
+transform: skewY(20deg);
+top: 200px; 
+
+}
+
+#square:hover {
+width: 80px;
+height: 300px;
+background: #EA526F;
+transition:6s;
+}
+ 
+#circle {
+margin: 100px;
+width:300px;      
+left:400px;
+top:90px;   
+position:relative;
+padding:5px;
+background:#BBC2E2;
+height:100px;
+border-radius:50%;
+}
+
+#circle:hover {
+    
+background: #E4FDE1;
+    
+}
+
+#star {
+margin: 10px;
+border: dashed 5px purple;
+padding: 30px;
+background: #BBC2E2;
+    
+}
+
+
+
+
+#rectangle {
+margin: 19px;
+left: 700px;
+border: solid 10px #DBFEB8;
+padding: 5px;
+background: #5B2E48;
+position: relative;
+rotate: 30deg;
+width: 200px;
+height: 100px;
+}
+
+
+#rectangle1 {
+margin: 10px;
+border: dashed 5px purple;
+position: absolute;
+padding: 5px;
+background: #BBC2E2;
+width: 200px;
+height: 100px;
+} 
+
+
+#triangle1{
+margin: 10px;
+border: dotted 5px purple;
+padding: 5px;
+background: #BBC2E2;    
+}
+
+
+#star1 {
+ margin: 50px;
+    left: 20px;
+      position: relative;
+      color:#F433AB;
+      width:200px;
+      height:200px;
+}
+
+
+#heart {
+margin: 10px;
+border: dashed 5px purple;
+padding: 5px;
+background:#BBC2E2; 
+position: sticky;
+left:100px;
+right:100px;
+height:220px;
+width:300px;
+
+}
+
+
+#circle1 {
+ margin: 10px;
+border: dashed 5px purple;
+padding: 5px;
+background: #BBC2E2;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+position:absolute;
+}
+
+
+#circle3 {
+margin:20px;
+padding:40px;
+background: #A0D2DB;
+width: 200px;
+height: 100px;
+position:sticky;
+left: 400px;
+border-radius: 20px;
+bottom: 80px;
+
+}
+
+#circle3:hover {  
+width: 100px;
+height: 100px;
+background: #012A36;
+transition: 3s;
+    transition-delay: 3s;
+}
+
+
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+	
+	
+	
+	
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+	
+	
+	
+} /* closes 1024px+ */
+
+
+
