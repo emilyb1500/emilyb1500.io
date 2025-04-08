@@ -1,0 +1,133 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+    font-family: "Antic Didone", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+
+body {
+	background:#423561;
+	
+}
+
+
+#container {
+	width:80%;
+	margin:auto;
+	background:azure;
+    
+}
+
+header, footer {
+	background: black;
+	color:azure;
+    
+}
+
+
+header {
+	padding:2em;
+	text-align:center;
+    color:azure;
+    
+}
+
+footer {
+	padding: 1em;
+}
+
+nav ul {
+	list-style:none;
+	padding-left:0px;
+}
+
+nav a {
+	display:block;
+	text-decoration:none;
+	padding:1em;
+	border:1px solid #8ba4b5;
+}
+
+iframe {
+    width:100%;
+    align-content:center;
+
+}
+
+
+figure {
+	margin:0px;
+	border:1px solid black;
+	padding:0.5em;
+	
+}
+
+figure img {
+	width: 100%;
+}
+
+section {
+	background: azure;
+	padding:2em;
+    justify-content: center;
+    border-bottom: 2em;
+   
+  
+}
+
+
+
+
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+	
+
+
+	
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+	    section {
+        padding-top: 15%;
+            padding-bottom:15%;
+    }
+    
+    nav li {
+        flex-basis: 25%; 
+    }
+	
+	
+} /* closes 1024px+ */
+
+
+
+
+
