@@ -1,0 +1,219 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+
+body {
+text-align:center;	
+background-color: #88b9db;
+font-family: 'montserrat', sans-serif; 
+}
+
+
+
+h1 {
+  font-family: 'chango', sans-serif;  
+    text-transform:uppercase;
+    text-indent: 50px;
+  text-align: justify , center;
+  line-height: 1.8; 
+}
+
+
+
+
+
+
+h2 {
+  font-family: 'chango', sans-serif;    
+}
+
+
+form {
+   font-family: 'chango', sans-serif;  
+    
+    line-height: normal;  
+}
+
+p {
+    
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+#cooper img {
+    
+     width: 100%;
+  height: auto;
+}
+
+
+footer { 
+text-transform: uppercase;
+}
+
+
+#product img  {
+    
+    width: 100%;
+  height: auto;
+}
+
+
+
+
+h3 {
+ font-family: 'montserrat', sans-serif;
+        font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+#agent-whisk h2 {
+    color: #33658a;
+     font-family: 'chango', sans-serif;  
+    text-transform: uppercase;
+    letter-spacing:auto;
+    line-height:auto;
+}
+
+#agent-whisk p {
+    
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.topnav {
+  position: relative;
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #33658a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #f5d491;
+  color: white;
+}
+
+/* Add a color to the active/current link.... HOME BUTTON */
+.topnav a.active {
+  background-color: #c6ecae;
+  color: #33658a;
+}
+
+/* Centered section inside the top navigation */
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+	
+	
+	
+	
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+	
+	
+	
+} /* closes 1024px+ */
+
+
+
